@@ -1,0 +1,100 @@
+
+
+
+.container {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+
+.box {
+  background-color: #e6e6e6;
+}
+
+.table-container {
+  background-color: #f9f9f9;
+}
+
+
+.input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.material-icons {
+  font-size: 24px;
+  color: #555;
+}
+
+/* Add frame to table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+td img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.table-container {
+  overflow-x: auto;
+}
+
+/* Media queries */
+
+
+@media only screen and (max-width: 768px) {
+  .input {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
